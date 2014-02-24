@@ -1,4 +1,10 @@
+import javax.swing.JComponent;
 
-public class Display {
 
+@SuppressWarnings("serial")
+public class Display extends JComponent {
+
+	public Display() {
+		
+	}
 }
