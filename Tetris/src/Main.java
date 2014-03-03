@@ -1,3 +1,6 @@
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import javax.swing.JFrame;
 
 
@@ -31,5 +34,12 @@ public class Main {
 		f.setVisible(true);
 		
 		f.add(d);
+	}
+	
+	public static void consolePrint(String message) {
+		Date date = new Date();
+		SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy h:mm:ss a");
+		String formattedDate = sdf.format(date);
+		System.out.println("[System @ " + formattedDate +"] " + message);
 	}
 }
