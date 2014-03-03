@@ -19,8 +19,12 @@ public class Main {
 	public static int gridWidth = 10; //width of the grid
 	public static int gridHeight = 22; //height of the grid
 	
-	//display constructor
-	public static Display d = new Display();
+	//display variables
+	public static Display d = new Display(); //display constructor
+	
+	//game variables
+	public static boolean game = false; //signifies the game is on
+	public static int level = 1;
 	
 	public static void main(String args[]) {
 		//console print
