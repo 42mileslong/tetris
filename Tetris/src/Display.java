@@ -12,6 +12,9 @@ public class Display extends JComponent {
 	
 	
 	public Display() {
+		//console print
+		Main.consolePrint("Loading image");
+		
 		try {
 			background = ImageIO.read(new File("Board.png"));
 		} catch (IOException e) {

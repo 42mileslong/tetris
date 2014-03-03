@@ -20,6 +20,9 @@ public class Main {
 	public static Display d = new Display();
 	
 	public static void main(String args[]) {
+		//console print
+		consolePrint("Making frame");
+		
 		//makes the frame
 		JFrame f = new JFrame();
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
